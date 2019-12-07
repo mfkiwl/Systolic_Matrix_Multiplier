@@ -1,6 +1,8 @@
 # Systolic Matrix Multiplier
-* Multiply two `M×M` matries using a `N×N` systolic array, where `M` is a integer times `N`.
+* Multiply two `M×M` matries using a `N×N` systolic array, where `M` is a integer times `N`
+* Design entity are writen by VHDL, testbench are writen by SystemVerilog
 * Simulation based on Vivado 2019.1
+* Python 3+ is required
 
 ## make_mem.py
 create two input matries `A.mem` and `B.mem`, which are shaped by slicing.
