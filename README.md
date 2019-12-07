@@ -16,5 +16,5 @@ run behavior simulation in Vivado TCL mode
 ## test.py
 test the result
 ```bash
->python test.py [N]
+> python test.py [N]
 ```
