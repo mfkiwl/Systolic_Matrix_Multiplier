@@ -4,7 +4,7 @@
 * Simulation based on Vivado 2019.1
 ---
 ## make_mem.py
-create two input matries **A.mem** and **B.mem**
+create two input matries `A.mem` and `B.mem`
 ``` bash
 > python make_mem.py [M] [N]
 ```
