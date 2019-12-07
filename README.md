@@ -5,12 +5,13 @@
 * Python 3+ is required
 
 ## make_mem.py
-create two input matries `A.mem` and `B.mem`, which are shaped by slicing.
+create two input matries `A.mem` and `B.mem`, which are shaped by slicing
 ``` bash
 $ python make_mem.py [M] [N]
 ```
 ## script.tcl
-run behavior simulation in Vivado TCL mode
+* run behavior simulation in Vivado TCL mode
+* delete old directory `/vivado_project` before launch simulation
 ```bash
 $ vivado -mode tcl -source script.tcl
 ```
