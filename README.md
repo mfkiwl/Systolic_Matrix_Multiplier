@@ -4,12 +4,12 @@
 * Simulation based on Vivado 2019.1
 ---
 ## make_mem.py
-Create two input matries **A.mem** and **B.mem**
+create two input matries **A.mem** and **B.mem**
 ``` bash
 > python make_mem.py [M] [N]
 ```
-## Launch Vivado in TCL mode
-run the behavior simulation
+## Launch simulation
+run behavior simulation in Vivado TCL mode
 ```bash
 > vivado -mode tcl -source script.tcl
 ```
