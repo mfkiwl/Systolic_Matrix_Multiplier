@@ -10,8 +10,8 @@ module dut_tb
 #(
     parameter D_W = 8,        //operand data width
     parameter D_W_ACC = 16,   //accumulator data width
-    parameter N = 3,
-    parameter M = 6
+    parameter N = 4,
+    parameter M = 8
 )
 ();
 

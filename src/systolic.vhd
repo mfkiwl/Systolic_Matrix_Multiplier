@@ -6,8 +6,8 @@ library work;
 use work.util_package.ALL;
 entity systolic is
     Generic ( 
-        M : INTEGER := 6;
-        N : INTEGER := 3;
+        M : INTEGER := 8;
+        N : INTEGER := 4;
         D_W : INTEGER := 8;
         D_W_ACC : INTEGER := 16
         );

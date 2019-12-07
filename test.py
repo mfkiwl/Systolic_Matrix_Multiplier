@@ -2,7 +2,7 @@ import sys
 import math
 
 N = int(sys.argv[1])
-sim_mode = sys.argv[2]
+# sim_mode = sys.argv[2]
 
 mem0 = open("./sim/A.mem")
 depth_mem0 = len(mem0.readlines())
@@ -32,10 +32,13 @@ for line in mem1:
     i+=1
 # if 'a' in sim_mode:
 #     mem2 = open("./lab4/lab4.sim/sim_2/behav/xsim/D.mem")
-if 'b' in sim_mode:
-    mem2 = open("./EE116_lab4/EE116_lab4.sim/sim_1/behav/xsim/D.mem")
-else:
-    mem2 = open("./EE116_lab4/EE116_lab4.sim/sim_1/synth/timing/xsim/D.mem")
+# if 'b' in sim_mode:
+#     mem2 = open("./vivado_project/vivado_project.sim/sim_1/behav/xsim/D.mem")
+# if 's' in sim_mode:
+#     mem2 = open("./vivado_project/vivado_project.sim/sim_1/synth/timing/xsim/D.mem")
+mem2 = open("./vivado_project/vivado_project.sim/sim_1/behav/xsim/D.mem")
+
+
 i=0
 isCorrect = True
 for line in mem2:

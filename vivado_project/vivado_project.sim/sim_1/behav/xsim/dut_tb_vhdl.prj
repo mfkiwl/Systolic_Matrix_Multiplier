@@ -1,0 +1,9 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../src/util_package.vhd" \
+"../../../../../src/counter.vhd" \
+"../../../../../src/pe.vhd" \
+"../../../../../src/systolic.vhd" \
+
+# Do not sort compile order
+nosort

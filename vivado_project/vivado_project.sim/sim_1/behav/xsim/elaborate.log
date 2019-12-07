@@ -1,0 +1,32 @@
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 5c4b7585737c4ea3a874182d7faacf0f --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot dut_tb_behav xil_defaultlib.dut_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "C:/Users/zhangqx/shanghaitech/FPGA/Lab/Lab 4/Systolic_Matrix_Multiplier/vivado_project/vivado_project.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package xil_defaultlib.util_package
+Compiling module xil_defaultlib.pipe(pipes=1)
+Compiling module xil_defaultlib.pipe(pipes=2)
+Compiling module xil_defaultlib.pipe(pipes=3)
+Compiling architecture behavioral of entity xil_defaultlib.pe [pe_default]
+Compiling architecture behavioral of entity xil_defaultlib.counter [counter_default]
+Compiling architecture behavioral of entity xil_defaultlib.systolic [systolic_default]
+Compiling module xil_defaultlib.pipe(D_W=1,pipes=1)
+Compiling module xil_defaultlib.pipe(D_W=1,pipes=2)
+Compiling module xil_defaultlib.pipe(D_W=1,pipes=3)
+Compiling module xil_defaultlib.pipe(D_W=1,pipes=4)
+Compiling module xil_defaultlib.pipe(D_W=1,pipes=5)
+Compiling module xil_defaultlib.pipe(D_W=1,pipes=6)
+Compiling module xil_defaultlib.pipe(D_W=1,pipes=7)
+Compiling module xil_defaultlib.dut_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot dut_tb_behav

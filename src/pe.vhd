@@ -5,7 +5,7 @@ library work;
 use work.util_package.ALL;
 entity pe is
     Generic ( 
-        M : INTEGER := 6;
+        M : INTEGER := 8;
         D_W : INTEGER := 8;
         D_W_ACC : INTEGER := 16);
     Port ( 

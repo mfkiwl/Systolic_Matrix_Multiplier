@@ -1,4 +1,4 @@
-create_project -quiet EE116_lab4 ./EE116_lab4 -part xc7z020clg484-1
+create_project -quiet vivado_project ./vivado_project -part xc7z020clg484-1
 add_files -norecurse {./src/systolic.vhd ./src/counter.vhd ./src/pe.vhd ./src/util_package.vhd}
 update_compile_order -fileset sources_1
 set_property SOURCE_SET sources_1 [get_filesets sim_1]

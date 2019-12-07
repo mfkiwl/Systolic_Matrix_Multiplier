@@ -6,8 +6,8 @@ library work;
 use work.util_package.ALL;
 entity counter is
     Generic ( 
-            M : INTEGER := 6;
-            N : INTEGER := 3);
+            M : INTEGER := 8;
+            N : INTEGER := 4);
     Port ( 
             clk : in STD_LOGIC;
             rst : in STD_LOGIC;
