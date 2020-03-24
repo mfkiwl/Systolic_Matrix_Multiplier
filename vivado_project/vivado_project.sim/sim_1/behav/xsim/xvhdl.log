@@ -1,7 +1,0 @@
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/zhangqx/shanghaitech/FPGA/Lab/Lab 4/Systolic_Matrix_Multiplier/src/util_package.vhd" into library xil_defaultlib
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/zhangqx/shanghaitech/FPGA/Lab/Lab 4/Systolic_Matrix_Multiplier/src/counter.vhd" into library xil_defaultlib
-INFO: [VRFC 10-3107] analyzing entity 'counter'
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/zhangqx/shanghaitech/FPGA/Lab/Lab 4/Systolic_Matrix_Multiplier/src/pe.vhd" into library xil_defaultlib
-INFO: [VRFC 10-3107] analyzing entity 'pe'
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/zhangqx/shanghaitech/FPGA/Lab/Lab 4/Systolic_Matrix_Multiplier/src/systolic.vhd" into library xil_defaultlib
-INFO: [VRFC 10-3107] analyzing entity 'systolic'
